@@ -1,0 +1,21 @@
+1.Why String is immutable?
+String objects are immutable which means unchangeable or unmodifiable.
+Once string object is created its data or state cannot be changed but a new string object is created
+
+2.How can you check if a String is immutable?
+Consider a String :-
+String name = Coffee;
+name.concat(shop);//This will append "shop" with "Cofee"
+System.out.println(name);
+This will print only Coffee because strings are immutable objects 
+  
+But by explicitely assigning it to the reference variable as below, we can make the strin mutable
+String newname = name.concat(shop);
+System.out.println(name);
+This will print Coffeeshop
+
+3.Why String literal is faster than objects 
+string object will always take more time to execute than string literal because it will construct a new string every time it is executed.
+
+4.What will happen if you concatenate a String with another 
+Concatenation is the process of appending one string to the end of another string. You concatenate strings by using the + operator.  
