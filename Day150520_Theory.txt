@@ -9,7 +9,7 @@ name.concat(shop);//This will append "shop" with "Cofee"
 System.out.println(name);
 This will print only Coffee because strings are immutable objects 
   
-But by explicitely assigning it to the reference variable as below, we can make the strin mutable
+But by explicitely assigning it to the reference variable as below, we can make the string mutable
 String newname = name.concat(shop);
 System.out.println(name);
 This will print Coffeeshop
