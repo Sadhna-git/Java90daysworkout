@@ -1,0 +1,13 @@
+22/05/2020 
+============ 
+1. What is Map? Differentiate between Hash, LinkedHash and Tree Map  
+	a)Map is a collection of elements where each element is stored as a Key, value pair. Map object can hold both objects and primitive values as either key or value. When we iterate over the map object it returns the key,value pair in the same order as inserted.
+	b)Hashmap maintains no order.LinkedHashmap maintains insertion order whereas TreeMap maintains Ascending order
+
+2. List the methods you know in the Map?
+	a)public Object put(Object key, Object value): This method is used to insert an entry in this map.
+	b)public Object remove(Object key): This method is used to delete an entry for the specified key
+	c)public Object get(Object key):This method is used to return the value for the specified key.
+	d)public boolean containsKey(Object key): This method is used to search the specified key from this map.
+	e)public Set keySet(): This method is used to return the Set view containing all the keys.
+	f)public Set entrySet(): This method is used to return the Set view containing all the keys and values.
